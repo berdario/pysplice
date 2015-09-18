@@ -1,0 +1,7 @@
+*.so
+*.o
+*.c
+.eggs
+build
+dist
+target

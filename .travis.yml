@@ -1,0 +1,11 @@
+language: python
+sudo: false
+python:
+  - 3.4
+env:
+  matrix:
+    - TOXENV="py34"
+    - TOXENV="py35"
+
+install: pip install tox
+script: tox -e $TOXENV

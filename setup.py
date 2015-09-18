@@ -2,13 +2,10 @@
 
 from setuptools import setup
 
-long_desc = ''''''
-
-
 setup(
     name='pysplice',
     version='0.1.0',
-    description='',
+    description='CFFI wrapper around the splice syscall',
     author='Dario Bertini',
     author_email='berdario+pypi@gmail.com',
     url='https://github.com/berdario/pysplice',
